@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Make Notes",
+    "slug": "make-notes",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/newicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/newsplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.anurup.makenotes3",
+      "versionCode": 3,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/newicon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e9e998be-313a-4715-8013-f3e51ca2837a"
+      }
+    }
+  }
+}
